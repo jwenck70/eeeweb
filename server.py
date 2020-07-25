@@ -13,8 +13,10 @@ def hello_world():
 @app.route('/dreamjob')
 def dreamjob():
     return redirect('https://content.e-motionsengineering.com/dreamjob')
-    #return render_template('10daychallenge.html')
-    #return 'We are engineering a better website before we engineer your emotions and energy. Stay tuned! Please :D'
+    
+@app.route('/dreamjob/')
+def dreamjob2():
+    return redirect('https://content.e-motionsengineering.com/dreamjob')
 
 @app.route('/challenge')
 def challenge():
