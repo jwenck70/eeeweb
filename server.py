@@ -10,6 +10,12 @@ def hello_world():
 # def components_page():
 #     return render_template('components.html')
 
+@app.route('/dreamjob')
+def dreamjob():
+    return redirect('https://content.e-motionsengineering.com/dreamjob')
+    #return render_template('10daychallenge.html')
+    #return 'We are engineering a better website before we engineer your emotions and energy. Stay tuned! Please :D'
+
 @app.route('/challenge')
 def challenge():
     return redirect('https://content.e-motionsengineering.com/perfect-life-10-day-meditation-challenge')
