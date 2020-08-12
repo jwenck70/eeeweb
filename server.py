@@ -32,7 +32,7 @@ def vipcareer():
     return redirect('https://content.e-motionsengineering.com/vipcareer/buy')
     
 @app.route('/mycareer/')
-def vipcareer():
+def vipcareer2():
     return redirect('https://content.e-motionsengineering.com/vipcareer/buy')
 
 @app.route('/challenge')
