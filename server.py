@@ -18,6 +18,23 @@ def dreamjob():
 def dreamjob2():
     return redirect('https://content.e-motionsengineering.com/dreamjob')
 
+
+@app.route('/mycareer')
+def mycareer():
+    return redirect('https://content.e-motionsengineering.com/mycareer')
+    
+@app.route('/mycareer/')
+def mycareer2():
+    return redirect('https://content.e-motionsengineering.com/mycareer')
+
+@app.route('/vipcareer')
+def vipcareer():
+    return redirect('https://content.e-motionsengineering.com/vipcareer/buy')
+    
+@app.route('/mycareer/')
+def vipcareer():
+    return redirect('https://content.e-motionsengineering.com/vipcareer/buy')
+
 @app.route('/challenge')
 def challenge():
     return redirect('https://content.e-motionsengineering.com/perfect-life-10-day-meditation-challenge')
